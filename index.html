@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandeep Dasari — ML Engineer, Creative, DJ</title>
+    <meta name="description" content="Sandeep Dasari (sandcobainer) — Generative AI Architect, Machine Learning Engineer, Electronic Musician & DJ based in Atlanta, GA.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav-inner">
+            <a href="#" class="nav-logo">SD</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#music">Music</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#music">Music</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <canvas id="heroCanvas"></canvas>
+        </div>
+        <div class="hero-content">
+            <p class="hero-greeting fade-up">Hello, I'm</p>
+            <h1 class="hero-name fade-up">Sandeep Dasari</h1>
+            <div class="hero-roles fade-up">
+                <span class="role-tag">Generative AI Architect</span>
+                <span class="role-divider">/</span>
+                <span class="role-tag">ML Engineer</span>
+                <span class="role-divider">/</span>
+                <span class="role-tag">DJ &amp; Producer</span>
+            </div>
+            <p class="hero-tagline fade-up">Building intelligent systems by day. Crafting sonic landscapes by night.</p>
+            <div class="hero-cta fade-up">
+                <a href="#experience" class="btn btn-primary">View My Work</a>
+                <a href="#music" class="btn btn-outline">Listen to Music</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <h2 class="section-title fade-up">About Me</h2>
+            <div class="about-grid">
+                <div class="about-text fade-up">
+                    <p>I'm a <strong>Generative AI Architect at AT&T</strong> based in Atlanta, GA — working at the intersection of artificial intelligence, cloud engineering, and creative technology.</p>
+                    <p>With master's degrees from <strong>Georgia Institute of Technology</strong> and <strong>Kansas State University</strong>, I bring deep expertise in machine learning, NLP, computer vision, and audio signal processing.</p>
+                    <p>Beyond engineering, I'm an <strong>electronic musician and DJ</strong> performing as <em>sandcobainer</em>. I write code to recreate the sounds in my head — merging generative algorithms with live music performance. My research on evolutionary algorithms in live coding was presented at the Joint Conference on AI Music Creativity.</p>
+                </div>
+                <div class="about-stats fade-up">
+                    <div class="stat-card">
+                        <span class="stat-number">8+</span>
+                        <span class="stat-label">Years in ML/AI</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">6+</span>
+                        <span class="stat-label">Companies</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">2</span>
+                        <span class="stat-label">Master's Degrees</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">27+</span>
+                        <span class="stat-label">Open Source Projects</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-grid fade-up">
+                <div class="skill-category">
+                    <h3>ML & AI</h3>
+                    <div class="skill-tags">
+                        <span>PyTorch</span><span>TensorFlow</span><span>NLP</span>
+                        <span>Computer Vision</span><span>Reinforcement Learning</span>
+                        <span>Generative AI</span><span>LLMs</span><span>Deep Learning</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Cloud & Infrastructure</h3>
+                    <div class="skill-tags">
+                        <span>GCP</span><span>AWS</span><span>Kubernetes</span>
+                        <span>TorchServe</span><span>DialogFlow</span><span>REST APIs</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Audio & Creative</h3>
+                    <div class="skill-tags">
+                        <span>Audio DSP</span><span>Max/MSP</span><span>C++</span>
+                        <span>Signal Processing</span><span>Electronic Music</span>
+                        <span>Live Coding</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Languages & Tools</h3>
+                    <div class="skill-tags">
+                        <span>Python</span><span>C++</span><span>JavaScript</span>
+                        <span>Git</span><span>Docker</span><span>SQL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section section-alt" id="experience">
+        <div class="container">
+            <h2 class="section-title fade-up">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item fade-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Generative AI Architect</h3>
+                            <span class="timeline-company">AT&T</span>
+                        </div>
+                        <span class="timeline-date">Present</span>
+                        <p>Architecting generative AI solutions at scale for one of the world's largest telecommunications companies. Designing and implementing LLM-powered systems and AI infrastructure.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item fade-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Machine Learning Engineer</h3>
+                            <span class="timeline-company">Simeio Solutions</span>
+                        </div>
+                        <span class="timeline-date">Previous</span>
+                        <p>Designed and architected intelligent chatbot systems. Developed ML pipelines for identity and access management solutions using modern AI/ML frameworks.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item fade-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>GCP Cloud Engineer</h3>
+                            <span class="timeline-company">Keurig Dr Pepper</span>
+                        </div>
+                        <span class="timeline-date">Previous</span>
+                        <p>Built and managed cloud infrastructure on Google Cloud Platform. Contributed to data engineering and cloud architecture for the food & beverage enterprise.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item fade-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>AI Engineer</h3>
+                            <span class="timeline-company">Polytopal</span>
+                        </div>
+                        <span class="timeline-date">Previous</span>
+                        <p>Researched and developed ML models in NLP, computer vision, and time series analysis. Built chatbots with Google DialogFlow, GCP & AWS. Fine-tuned deep learning models for image/text classification. Served inference models via REST APIs using TorchServe.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item fade-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Machine Learning Engineer</h3>
+                            <span class="timeline-company">Bellwethr</span>
+                        </div>
+                        <span class="timeline-date">Previous</span>
+                        <p>Focused on reinforcement learning research and deploying ML models on production servers at scale.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item fade-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Engineering Intern</h3>
+                            <span class="timeline-company">Qualcomm</span>
+                        </div>
+                        <span class="timeline-date">Previous</span>
+                        <p>Developed applications to encode audio files with audio watermarks. Worked with audio signal processing and embedded systems.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item fade-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Graduate Research Assistant</h3>
+                            <span class="timeline-company">Kansas State University</span>
+                        </div>
+                        <span class="timeline-date">Previous</span>
+                        <p>Evaluated machine learning and real-time programming in embodied music cognition and human-computer interaction. Research on real-time crash prediction from highway sensors and gesture recognition using Microsoft Kinect SDK and OpenFrameworks.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item fade-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Programmer Analyst</h3>
+                            <span class="timeline-company">Cognizant Technology Solutions</span>
+                        </div>
+                        <span class="timeline-date">Previous</span>
+                        <p>Started career in enterprise software development and technology consulting. Built foundational engineering skills across the full stack.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Education -->
+            <h2 class="section-title fade-up" style="margin-top: 4rem;">Education</h2>
+            <div class="education-grid">
+                <div class="edu-card fade-up">
+                    <div class="edu-icon">🐝</div>
+                    <h3>Georgia Institute of Technology</h3>
+                    <p class="edu-degree">Master's Degree — School of Music / ML</p>
+                    <p class="edu-focus">Machine Learning, Audio Engineering, Electronic Music, Signal Processing</p>
+                </div>
+                <div class="edu-card fade-up">
+                    <div class="edu-icon">🏈</div>
+                    <h3>Kansas State University</h3>
+                    <p class="edu-degree">Master's Degree — Computer Science</p>
+                    <p class="edu-focus">Machine Learning, Pattern Recognition, Gesture Recognition, HCI</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+        <div class="container">
+            <h2 class="section-title fade-up">Projects & Research</h2>
+            <div class="projects-grid">
+                <div class="project-card fade-up">
+                    <div class="project-icon">🧬</div>
+                    <h3>Directed Evolution in Live Coding</h3>
+                    <p>Research paper on genetic algorithms applied to live music performance. Presented at the 2020 Joint Conference on AI Music Creativity.</p>
+                    <div class="project-tags">
+                        <span>Research</span><span>Genetic Algorithms</span><span>Music</span>
+                    </div>
+                </div>
+                <div class="project-card fade-up">
+                    <div class="project-icon">🥁</div>
+                    <h3>Drum Sample Clustering</h3>
+                    <p>Audio feature extraction and clustering of audio files using data visualization and dimensionality reduction (PCA). Exploring the latent space of percussion.</p>
+                    <div class="project-tags">
+                        <span>Audio ML</span><span>PCA</span><span>Max/MSP</span>
+                    </div>
+                    <a href="https://github.com/sandcobainer/drum-sample-clustering" class="project-link" target="_blank" rel="noopener">View on GitHub →</a>
+                </div>
+                <div class="project-card fade-up">
+                    <div class="project-icon">📡</div>
+                    <h3>Lexcast Pipeline</h3>
+                    <p>Automated data pipeline to perform Named Entity Recognition on YouTube playlists — extracting structured NER data from video content at scale.</p>
+                    <div class="project-tags">
+                        <span>NLP</span><span>NER</span><span>Python</span>
+                    </div>
+                    <a href="https://github.com/sandcobainer/lexcast-pipeline" class="project-link" target="_blank" rel="noopener">View on GitHub →</a>
+                </div>
+                <div class="project-card fade-up">
+                    <div class="project-icon">🎛️</div>
+                    <h3>KoolEdit2020</h3>
+                    <p>Team audio software engineering project built in C++. A collaborative audio editing and processing application.</p>
+                    <div class="project-tags">
+                        <span>C++</span><span>Audio DSP</span><span>Software Engineering</span>
+                    </div>
+                    <a href="https://github.com/sandcobainer/KoolEdit2020" class="project-link" target="_blank" rel="noopener">View on GitHub →</a>
+                </div>
+                <div class="project-card fade-up">
+                    <div class="project-icon">🤖</div>
+                    <h3>GPT Experiments</h3>
+                    <p>Repository of experiments with GPT-based applications — exploring the creative and practical boundaries of large language models.</p>
+                    <div class="project-tags">
+                        <span>LLMs</span><span>Python</span><span>Generative AI</span>
+                    </div>
+                    <a href="https://github.com/sandcobainer/gpt-experiments" class="project-link" target="_blank" rel="noopener">View on GitHub →</a>
+                </div>
+                <div class="project-card fade-up">
+                    <div class="project-icon">👁️</div>
+                    <h3>CV Projects</h3>
+                    <p>Collection of PyTorch computer vision projects from Georgia Tech — image classification, object detection, and visual understanding.</p>
+                    <div class="project-tags">
+                        <span>PyTorch</span><span>Computer Vision</span><span>Deep Learning</span>
+                    </div>
+                    <a href="https://github.com/sandcobainer/cvprojects" class="project-link" target="_blank" rel="noopener">View on GitHub →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Music Section -->
+    <section class="section section-alt" id="music">
+        <div class="container">
+            <h2 class="section-title fade-up">Music &amp; Creative</h2>
+            <div class="music-intro fade-up">
+                <p>As <strong>sandcobainer</strong>, I produce electronic music and DJ — fusing algorithmic composition with human expression. I'm an audio programmer who writes code to recreate the sounds in my head.</p>
+            </div>
+            <div class="music-grid">
+                <div class="music-embed fade-up">
+                    <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/sandeep-dx&color=%23a855f7&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=true"></iframe>
+                </div>
+                <div class="music-links fade-up">
+                    <h3>Find My Music</h3>
+                    <a href="https://soundcloud.com/sandeep-dx" class="music-link-card" target="_blank" rel="noopener">
+                        <span class="music-platform">SoundCloud</span>
+                        <span class="music-handle">@sandcobainer</span>
+                    </a>
+                    <a href="https://sandcobainer.gumroad.com/" class="music-link-card" target="_blank" rel="noopener">
+                        <span class="music-platform">Gumroad</span>
+                        <span class="music-handle">Audio tools & samples</span>
+                    </a>
+                    <a href="https://sandcobainer.substack.com/" class="music-link-card" target="_blank" rel="noopener">
+                        <span class="music-platform">Substack</span>
+                        <span class="music-handle">Writing on AI & Music</span>
+                    </a>
+                    <h3 style="margin-top: 1.5rem;">Research</h3>
+                    <div class="publication-card">
+                        <p><strong>Directed Evolution in Live Coding Music Performance</strong></p>
+                        <p class="pub-authors">Dasari, S., & Freeman, J. (2020)</p>
+                        <p class="pub-venue">The 2020 Joint Conference on AI Music Creativity</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <div class="container">
+            <h2 class="section-title fade-up">Let's Connect</h2>
+            <p class="contact-subtitle fade-up">Whether it's about AI, music, or an exciting collaboration — I'd love to hear from you.</p>
+            <div class="contact-grid fade-up">
+                <a href="mailto:sandeep.cr007@gmail.com" class="contact-card">
+                    <span class="contact-icon">✉️</span>
+                    <span class="contact-label">Email</span>
+                    <span class="contact-value">sandeep.cr007@gmail.com</span>
+                </a>
+                <a href="https://www.linkedin.com/in/sandeepdasari/" class="contact-card" target="_blank" rel="noopener">
+                    <span class="contact-icon">💼</span>
+                    <span class="contact-label">LinkedIn</span>
+                    <span class="contact-value">sandeepdasari</span>
+                </a>
+                <a href="https://github.com/sandcobainer" class="contact-card" target="_blank" rel="noopener">
+                    <span class="contact-icon">🐙</span>
+                    <span class="contact-label">GitHub</span>
+                    <span class="contact-value">sandcobainer</span>
+                </a>
+                <a href="https://www.instagram.com/sandcobainer/" class="contact-card" target="_blank" rel="noopener">
+                    <span class="contact-icon">📸</span>
+                    <span class="contact-label">Instagram</span>
+                    <span class="contact-value">@sandcobainer</span>
+                </a>
+                <a href="https://x.com/sandcobainer" class="contact-card" target="_blank" rel="noopener">
+                    <span class="contact-icon">𝕏</span>
+                    <span class="contact-label">X / Twitter</span>
+                    <span class="contact-value">@sandcobainer</span>
+                </a>
+                <a href="https://soundcloud.com/sandeep-dx" class="contact-card" target="_blank" rel="noopener">
+                    <span class="contact-icon">🎵</span>
+                    <span class="contact-label">SoundCloud</span>
+                    <span class="contact-value">sandcobainer</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Sandeep Dasari. Built with curiosity.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
